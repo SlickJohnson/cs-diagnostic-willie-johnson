@@ -1,0 +1,5 @@
+When you type in a url and press enter you send an HTTP/s request to the website.
+Your DNS dictates how the information is sent and how the response is recieved.
+The information you send and receive are called "packets".
+These packets are sent along a TCP and/or UDP connection and if there is no connection nothing will be sent.
+This can be resolved with portforwarding. The machine that sends the request is known as the Client and the machine that recieves that request is known as a Server. 
