@@ -1,0 +1,9 @@
+Lists/arrays are collections that contain any data types including classes, strings, and even other arrays/lists and are organized by indexes. These are mutable.
+Dictionary/hash tables are collections that are stored in a  "Key, Value" format. They can also contain any data type and are usually mutable.
+Tuples are essentially immutable lists/arrays.
+
+# I am rusty on generators so I'll give to explanations since it is "extra credit!"
+1) Generator functions are basically functions that execute code in a certain order. For example, if you have functions "run_first" and "run_second", you can setup a generator that runs both easily in the correct order
+2) Generators allow you to iterate through huge amounts of data without having to wait until the last item just to see the first. It allows you to do an action or stop the loop on each returned value. For example, if you had a loop that iterates through 100 values, if you only wanted to see value 2, you could use a generator rather than a loop.
+
+They are all similar in the sense that it allows you to store and/or read relatable data in an easy way.
